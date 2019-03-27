@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "plugins", "entities"],
+  "ext": "ts,twig",
+  "ignore": [],
+  "exec": "rapin"
+}

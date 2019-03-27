@@ -1,0 +1,36 @@
+{{header}}
+  
+    
+    <!-- Features (v2) -->
+    <section class="slice slice-lg">
+      <div class="container">
+        <table class="table">
+          <tr>
+            <th>Time</th>
+            <th>Price</th>
+            <th>Price Growth</th>
+            <th>Volume</th>
+            <th>Volume Growth</th>
+          </tr>
+        {% for price in prices %}
+            <tr>
+              <td>{{ price.timeFromNow }}</td>
+              <td>{{ price.price }}</td>
+              <td>{{ price.pricePercent }}</td>
+              <td>{{ price.volume }}</td>
+              <td>{{ price.volumePercent }}</td>
+            </tr>
+        {% endfor %}
+          <tr>
+            <td>Now</td>
+            <td>{{ current.price }}</td>
+            <td>100%</td>
+            <td>{{ current.volume }}</td>
+            <td>100%</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    
+    
+{{footer}}
