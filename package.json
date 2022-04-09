@@ -17,7 +17,7 @@
         "binance-api-node": "^0.8.20",
         "cron": "^1.6.0",
         "instagram-private-api": "^0.6.8",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "moment-timezone": "^0.5.23",
         "mongodb": "^3.1.13",
         "rapin": "^0.1.3",
